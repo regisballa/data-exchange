@@ -50,13 +50,12 @@
 			{/if}
 		</header>
 
-		<!-- Angebot: nur sichtbar, wenn wir innerhalb von 15 m sind -->
+		<!-- Neues Zitat: nur sichtbar, wenn wir innerhalb von 15 m sind -->
 		{#if imBereich}
-			<section class="mb-16 rounded-2xl border border-[#c0603a]/30 bg-[#c0603a]/10 p-8">
-				<p class="text-xs tracking-[0.25em] text-[#c0603a] uppercase">Neues Angebot</p>
-				<h2 class="mt-3 font-['Instrument_Serif'] text-4xl text-stone-900">Du bist vor Ort!</h2>
-				<p class="mt-3 text-stone-600">Nur hier und nur jetzt: 20 % Rabatt auf alles. Zeig diese Nachricht an der Kasse.</p>
-			</section>
+			<p class="text-xs tracking-[0.25em] text-[#c0603a] uppercase">Neues Zitat, nur hier vor Ort</p>
+			<Quote author="Augustinus">
+				<p>The world is a book, and those who do not travel read only one page.</p>
+			</Quote>
 		{/if}
 
 		<Quote author="Abraham Lincoln">
